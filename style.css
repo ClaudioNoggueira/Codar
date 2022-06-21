@@ -268,3 +268,45 @@ header {
   font-weight: 500;
   padding: 1.8rem 3.6rem;
 }
+
+/*//////////////////////////////////////////////////////////*/
+/* TESTIMONIALS SECTION */
+.testimonials-section {
+  column-gap: 4.8rem;
+  padding: 11.2rem 6.4rem 4.8rem;
+}
+
+.testimonial-container {
+  background-color: #ddd;
+  box-shadow: 0 1.2rem 2.4rem 0 rgba(0, 0, 0, 0.1);
+  border-radius: 1.2rem;
+  padding: 2.4rem;
+}
+
+.grid--testimonial {
+  column-gap: 2.4rem;
+  grid-template-columns: 1fr 3fr;
+}
+
+.testimonial-image {
+  border: 2px solid var(--main-color);
+  border-radius: 50%;
+}
+
+.testimonial-container .text-container {
+  justify-content: space-between;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+}
+
+.testimonial-customer-name {
+  color: var(--main-color-dark);
+  font-size: 2.2rem;
+}
+
+.testimonial-customer-company {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
