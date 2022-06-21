@@ -1,5 +1,5 @@
 :root {
-  --font-stack: "Roboto", sans-serif;
+  --font-stack: "Rubik", sans-serif;
   --main-color-lighter: #ff5560;
   --main-color-light: #ff2a38;
   --main-color: #d6000d;
@@ -273,7 +273,7 @@ header {
 /* TESTIMONIALS SECTION */
 .testimonials-section {
   column-gap: 4.8rem;
-  padding: 11.2rem 6.4rem 4.8rem;
+  padding: 11.2rem 3.6rem;
 }
 
 .testimonial-container {
@@ -309,4 +309,54 @@ header {
 .testimonial-customer-company {
   font-size: 1.6rem;
   font-weight: 500;
+}
+
+/*//////////////////////////////////////////////////////////*/
+/* FOOTER */
+footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 9.6rem 3.6rem 12rem;
+}
+
+footer .grid {
+  column-gap: 4.8rem;
+}
+
+.footer-title {
+  color: #fff;
+}
+
+.footer-text {
+  color: #bcbcbc;
+  margin-bottom: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  color: #bcbcbc;
+  font-weight: 500;
+  text-decoration: underline !important;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: var(--main-color-dark);
+}
+
+.social-icons {
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.4rem;
+}
+
+.footer-icon {
+  color: var(--main-color);
+  font-size: 3.6rem;
+}
+
+.footer-icon:hover {
+  color: var(--main-color-dark);
 }
