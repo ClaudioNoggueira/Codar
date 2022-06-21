@@ -354,6 +354,7 @@ footer .grid {
 
 .footer-text {
   color: #bcbcbc;
+  line-height: 1.5;
   margin-bottom: 2.4rem;
 }
 
@@ -383,4 +384,84 @@ footer .grid {
 
 .footer-icon:hover {
   color: var(--main-color-dark);
+}
+
+/*//////////////////////////////////////////////////////////*/
+/* MEDIA QUERIES */
+@media (max-width: 64em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 56em) {
+  html {
+    font-size: 42.5%;
+  }
+}
+
+@media (max-width: 48em) {
+  .heading-primary {
+    font-size: 4.6rem;
+  }
+
+  .grid--testimonial {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-container {
+    text-align: center;
+    padding: 3.6rem;
+  }
+
+  .testimonial-container .image-container {
+    margin-bottom: 1.8rem;
+  }
+  .testimonial-container .image {
+    width: 50%;
+  }
+
+  .testimonial-text {
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media (max-width: 42em) {
+  html {
+    font-size: 37.5%;
+  }
+}
+
+@media (max-width: 38em) {
+  .grid--4-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 35em) {
+  .hero-section {
+    column-gap: 4.8rem;
+    padding: 9.6rem 3.6rem;
+  }
+  .features-section {
+    column-gap: 4.8rem;
+    padding: 11.2rem 3.6rem 4.8rem;
+  }
+  .cta-section {
+    padding: 0 3.6rem 9.6rem;
+  }
+}
+
+@media (max-width: 32em) {
+  .hero-section {
+    column-gap: 3.6rem;
+    padding: 9.6rem 0;
+  }
+  .features-section {
+    column-gap: 3.6rem;
+    padding: 11.2rem 0 4.8rem;
+  }
+  .cta-section {
+    padding: 0 0 9.6rem;
+  }
 }
