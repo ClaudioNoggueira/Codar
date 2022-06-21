@@ -212,3 +212,26 @@ header {
   font-weight: 600;
   width: fit-content;
 }
+
+/*//////////////////////////////////////////////////////////*/
+/* FEATURE SECTION */
+.features-section {
+  column-gap: 9.6rem;
+  padding: 11.2rem 6.4rem;
+}
+
+.features-list {
+  gap: 1.2rem;
+  justify-content: center;
+  list-style: none;
+}
+
+.feature {
+  font-size: 2.4rem;
+}
+
+.feature-icon {
+  color: var(--main-color);
+  font-size: 3.2rem;
+  margin-right: 2.4rem;
+}
