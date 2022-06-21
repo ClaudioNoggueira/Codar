@@ -190,6 +190,30 @@ header {
   color: var(--main-color-dark);
 }
 
+/* MOBILE NAVIGATION */
+header {
+  position: relative;
+}
+
+.mobile-nav-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+  z-index: 999;
+}
+
+.mobile-nav-icon {
+  font-size: 3.6rem;
+}
+
+.mobile-nav-icon[name="menu-icon"] {
+  display: block;
+}
+.mobile-nav-icon[name="close-icon"] {
+  display: none;
+}
+
 /*//////////////////////////////////////////////////////////*/
 /* HERO SECTION */
 .hero-section {
