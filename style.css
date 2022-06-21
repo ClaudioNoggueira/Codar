@@ -493,4 +493,19 @@ footer .grid {
   .nav-link {
     font-size: 3rem;
   }
+
+  .nav-open .nav-list {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .mobile-nav-icon[name="close-icon"] {
+    display: block;
+  }
+
+  .nav-open .mobile-nav-icon[name="menu-icon"] {
+    display: none;
+  }
 }
