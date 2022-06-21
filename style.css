@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  color: #222;
+  color: #111;
   font-family: var(--font-stack);
   overflow-x: hidden;
 }
@@ -39,6 +39,10 @@ h2,
 h3 {
   font-weight: 700;
   letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
 }
 
 p {
@@ -136,9 +140,9 @@ header {
 
 .nav-list {
   align-items: center;
-  justify-content: center;
   font-size: 2rem;
   gap: 4.8rem;
+  justify-content: center;
   list-style: none;
 }
 
@@ -159,7 +163,9 @@ header {
   border: none;
   border-radius: 1.2rem;
   cursor: pointer;
+  font-family: inherit;
   padding: 1.2rem 5.6rem;
+  transition: all 0.3s;
 }
 
 .btn--full {
@@ -169,4 +175,36 @@ header {
 
 .btn--full:hover {
   background-color: var(--main-color-dark);
+}
+
+/*//////////////////////////////////////////////////////////*/
+/* HERO SECTION */
+.hero-section {
+  column-gap: 9.6rem;
+  padding: 9.6rem 6.4rem;
+}
+
+.text-container {
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.text-container h1 {
+  color: var(--main-color);
+}
+
+.text-container button {
+  padding: 0.8 auto;
+  font-size: 1.8rem;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.subheading {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.image {
+  width: 100%;
 }
