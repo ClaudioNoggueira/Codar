@@ -594,3 +594,43 @@ footer .grid {
     grid-column: 2;
   }
 }
+
+@media (max-width: 20em) {
+  footer {
+    padding: 9.6rem 0 12rem;
+  }
+
+  footer .grid {
+    column-gap: 3.6rem;
+    row-gap: 4.8rem;
+  }
+
+  .hero-section {
+    padding: 9.6rem 0;
+  }
+
+  .features-section {
+    padding: 11.2rem 0 6.4rem;
+  }
+
+  .cta-section {
+    padding: 0 2.4rem 9.6rem;
+  }
+
+  .cta-section .cta-label {
+    margin-bottom: 2.4rem;
+  }
+
+  .testimonials-section {
+    padding: 11.2rem 0;
+  }
+
+  .grid--testimonial {
+    column-gap: 2.4rem;
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-container .image {
+    width: 50%;
+  }
+}
